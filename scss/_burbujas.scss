@@ -1,0 +1,57 @@
+.burbuja {
+  border-radius: 50%;
+  background-image: url(../imagenes/imagen-de-css/logo100x100.png);
+  opacity: 0.3;
+
+  position: fixed;
+  bottom: 0;
+  z-index: -1;
+
+  animation: burbujas 3s linear infinite;
+
+  &:nth-child(1) {
+    width: 100px;
+    height: 100px;
+    left: 5%;
+    animation-duration: 3s;
+  }
+
+  &:nth-child(2) {
+    width: 100px;
+    height: 100px;
+    left: 35%;
+    animation-duration: 7s;
+  }
+  &:nth-child(3) {
+    width: 100px;
+    height: 100px;
+    left: 15%;
+    animation-duration: 9s;
+  }
+  &:nth-child(4) {
+    width: 100px;
+    height: 100px;
+    left: 80%;
+    animation-duration: 6s;
+  }
+
+  &:nth-child(5) {
+    width: 100px;
+    height: 100px;
+    left: 65%;
+    animation-duration: 4s;
+  }
+}
+@keyframes burbujas {
+  0% {
+    bottom: 0%;
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.4;
+  }
+  100% {
+    bottom: 100vh;
+    opacity: 0.2;
+  }
+}

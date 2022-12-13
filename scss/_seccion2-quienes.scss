@@ -1,0 +1,23 @@
+.body__main__seccion2--quienes {
+  grid-area: seccion2;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 4px 4px $color-fondo-secundario;
+  border-radius: 103px;
+
+  &--text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: $color_blanco;
+    margin: 40px;
+  }
+}

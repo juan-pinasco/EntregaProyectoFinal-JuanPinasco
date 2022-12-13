@@ -1,0 +1,77 @@
+.body__footer {
+  grid-area: footer;
+  background-color: $color-fondo-secundario;
+  margin-top: 41px;
+  display: flex;
+  flex-direction: column;
+
+  &__contenedor1 {
+    min-width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    &--contactanos {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 30px;
+      text-align: center;
+      color: $color_blanco;
+      text-shadow: $estilo-text-shadow;
+    }
+
+    &--gmail {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      text-align: center;
+      color: $color_blanco;
+      text-shadow: $estilo-text-shadow;
+    }
+  }
+
+  &__contenedor2 {
+    min-width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    &--seguinos {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 30px;
+      margin: 10px;
+      text-align: center;
+      color: $color_blanco;
+      text-shadow: $estilo-text-shadow;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .body__footer {
+    grid-area: footer;
+    display: flex;
+    flex-direction: row;
+    &__contenedor1--gmail {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 26px;
+      text-align: center;
+      color: $color_blanco;
+      text-shadow: $estilo-text-shadow;
+    }
+  }
+}
+@media (min-width: 1024px) {
+  .body__footer__contenedor1--gmail {
+    font-size: 26px;
+  }
+}

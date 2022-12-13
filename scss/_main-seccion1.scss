@@ -1,0 +1,30 @@
+.body__main__seccion1 {
+  grid-area: seccion1;
+  border-color: $color_blanco;
+  border-style: solid;
+  padding: 15px;
+  border-radius: 50px;
+  margin-bottom: 40px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+
+  &__h {
+    font-family: "Roboto";
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 30px;
+    color: $color_blanco;
+    text-shadow: $estilo-text-shadow;
+  }
+  @media (min-width: 768px) {
+    &__h {
+      font-family: "Roboto";
+      font-weight: 900;
+      font-size: 40px;
+      line-height: 40px;
+      color: $color_blanco;
+      text-shadow: $estilo-text-shadow;
+    }
+  }
+}

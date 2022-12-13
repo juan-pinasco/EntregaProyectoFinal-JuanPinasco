@@ -1,0 +1,9 @@
+.body__main {
+  grid-area: main;
+  display: grid;
+  grid-template:
+    "seccion1" auto
+    "seccion2" auto
+    / 80%;
+  justify-content: center;
+}

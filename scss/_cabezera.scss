@@ -1,0 +1,32 @@
+.body__cabezera {
+  grid-area: header;
+  background-image: url(../imagenes/imagenes-encabezado/imagen-encabezado-mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  object-position: center;
+  display: flex;
+  align-items: center;
+
+  &__logo {
+    height: 60px;
+    width: 60px;
+    display: flex;
+    margin-left: 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .body__cabezera {
+    background-image: url(../imagenes/imagen-de-css/imagen-encabezado.png);
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+
+    &__logo {
+      background-image: url(../imagenes/imagen-de-css/imagen-logo.png);
+      height: 138px;
+      width: 180px;
+      margin-left: 10%;
+    }
+  }
+}

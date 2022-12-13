@@ -1,0 +1,25 @@
+.body {
+  font-family: "roboto", sans-serif;
+  text-align: center;
+
+  background-color: $color-fondo-principal;
+  min-height: 100vh;
+  display: grid;
+  grid-template:
+    "header" 100px
+    "nav" auto
+    "main" auto
+    "footer" auto
+    / auto;
+}
+@media (min-width: 1024px) {
+  .body {
+    display: grid;
+    grid-template:
+      "header" 232px
+      "nav" 40px
+      "main" auto
+      "footer" 170px
+      / auto;
+  }
+}

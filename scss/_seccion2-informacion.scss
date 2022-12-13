@@ -1,0 +1,25 @@
+.body__main__seccion2--informacion {
+  grid-area: seccion2;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  grid-row-gap: 30px;
+
+  &--article {
+    background: $color-fondo-secundario;
+    box-shadow: $estilo-box-shadow;
+    width: 100%;
+    max-width: 400px;
+    justify-self: center;
+  }
+}
+@media (min-width: 1024px) {
+  .body__main__seccion2--informacion {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 30px;
+  }
+}
