@@ -123,8 +123,8 @@
   transform: scale(1.2);
   transition: 2s;
 }
-.body__main__seccion2--productos__article__texto {
-  padding: 10px;
+.body__main__seccion2--productos__article--texto {
+  padding: 5%;
 }
 
 @media (min-width: 768px) {
@@ -249,13 +249,11 @@
   border-radius: 10%;
   text-align: center;
   color: #a0846e;
-  text-decoration: solid;
 }
 .body__main__seccion2--contacto--article--formulario--botones {
   min-width: 50%;
   border-radius: 10%;
   color: #a0846e;
-  text-decoration: solid;
   padding: 5%;
 }
 
