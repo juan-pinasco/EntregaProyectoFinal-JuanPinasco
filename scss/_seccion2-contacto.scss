@@ -28,8 +28,7 @@
         text-align: center;
         color: $color-letra-productos;
         &:focus {
-          border-color: blue;
-          border-style: dashed;
+          background-color: aquamarine;
         }
       }
 

@@ -251,8 +251,7 @@
   color: #a0846e;
 }
 .body__main__seccion2--contacto--article--formulario--input:focus {
-  border-color: blue;
-  border-style: dashed;
+  background-color: aquamarine;
 }
 .body__main__seccion2--contacto--article--formulario--botones {
   min-width: 50%;
