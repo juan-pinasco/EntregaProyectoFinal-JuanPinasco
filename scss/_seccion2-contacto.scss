@@ -34,6 +34,11 @@
         border-radius: 10%;
         color: $color-letra-productos;
         padding: 5%;
+        &:hover {
+          background-color: $color-fondo-principal;
+          color: white;
+          transition: 1s;
+        }
       }
     }
   }

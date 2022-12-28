@@ -256,6 +256,11 @@
   color: #a0846e;
   padding: 5%;
 }
+.body__main__seccion2--contacto--article--formulario--botones:hover {
+  background-color: #a0846e;
+  color: white;
+  transition: 1s;
+}
 
 @media (min-width: 1024px) {
   .body__main__seccion2--contacto {
