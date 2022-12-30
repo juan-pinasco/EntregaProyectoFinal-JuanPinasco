@@ -178,7 +178,10 @@
   grid-column-gap: 30px;
   grid-row-gap: 20px;
 }
-.body__main__seccion2--conociendonos--article--contenedor--texto {
+.body__main__seccion2--conociendonos__contenedor {
+  width: 100%;
+}
+.body__main__seccion2--conociendonos__contenedor--texto {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;

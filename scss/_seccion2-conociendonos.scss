@@ -8,13 +8,16 @@
   grid-column-gap: 30px;
   grid-row-gap: 20px;
 
-  &--article--contenedor--texto {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 23px;
-    color: $color_blanco;
+  &__contenedor {
+    width: 100%;
+    &--texto {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 23px;
+      color: $color_blanco;
+    }
   }
 
   &--article {
