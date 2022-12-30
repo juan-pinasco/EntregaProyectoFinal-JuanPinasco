@@ -212,11 +212,10 @@
   display: grid;
   justify-content: center;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: repeat(4, auto);
   grid-row-gap: 30px;
 }
 .body__main__seccion2--informacion--article {
-  background: #e3d2ca;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
   width: 100%;
   max-width: 400px;
@@ -227,7 +226,7 @@
   .body__main__seccion2--informacion {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr;
+    grid-template-rows: repeat(2, auto);
     grid-column-gap: 0px;
     grid-row-gap: 30px;
   }
