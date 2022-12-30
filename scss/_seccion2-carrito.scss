@@ -21,9 +21,39 @@
     margin: 50px;
   }
 }
-
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .body__main__seccion2--carrito--p {
     font-size: 32px;
+  }
+  .body__main__seccion2--carrito--img {
+    animation-name: carrito;
+    animation-duration: 3s;
+    /* animation-delay: 2s; */
+    position: relative;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    @keyframes carrito {
+      0% {
+        left: 0px;
+      }
+      /*  10% {
+        left: 100px;
+      } */
+      30% {
+        left: 200px;
+      }
+      50% {
+        left: 300px;
+      }
+      70% {
+        right: 200px;
+      }
+      /*     90% {
+        right: 100px;
+      } */
+      100% {
+        right: 0px;
+      }
+    }
   }
 }
